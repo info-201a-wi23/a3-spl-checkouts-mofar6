@@ -12,7 +12,7 @@ This datasets covers books that were checked out at least 10 times a month from 
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
-The findings and values relate to the charts that I've made. The Obama's has been really fascinating to me, and I've found two values that shows how much checkouts Michelle and Barack have throughout the years of 2018-2022 with **'michelle_obama_checkout'** and **'barack_obama_checkout'**, from my summary information. I've also been fascinated by the fall of videodiscs and the rise of audiobooks from this dataset. Ive used **'videodisc_checkout'** and **'audiobook_checkout'** to find out how audiobooks tookover videodiscs by showing each checkout by the two from 2017-2023. And last but not least **'verity_checkouts'** and **'itendswithus_checkouts'** help us see how two of the most popular books from 2022 were performing. These values are all relevant since they relate to my chart! You can find these values on **'summary.r'**
+The findings and values relate to the charts that I've made. The Obama's has been really fascinating to me, and I've found two values that shows how much checkouts Michelle and Barack have throughout the years of 2018-2022 with **michelle_obama_checkout** and **barack_obama_checkout**, from my summary information. I've also been fascinated by the fall of videodiscs and the rise of audiobooks from this dataset. Ive used **videodisc_checkout** and **audiobook_checkout** to find out how audiobooks tookover videodiscs by showing each checkout by the two from 2017-2023. And last but not least **verity_checkouts** and **itendswithus_checkouts** help us see how two of the most popular books from 2022 were performing. These values are all relevant since they relate to my chart! You can find these values on **summary.r**
 
 ### The Dataset
 
@@ -23,12 +23,14 @@ The Seattle Public Library collected this data. This data comes with a lot of pa
 
 ``````{r, echo = FALSE, warning = FALSE, code = readLines("Chart1.R")}
 ```
+</br>
 
 ### Chart 2
 
 
 ``````{r, echo = FALSE, code = readLines("chart2.R")}
 ```
+</br>
 
 ### Chart 3
 
