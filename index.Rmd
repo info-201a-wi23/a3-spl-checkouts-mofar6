@@ -12,28 +12,27 @@ This datasets covers books that were checked out at least 10 times a month from 
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
-The findings and values relate to the charts that I've made. The Obama's has been really fascinating to me, and I've found two values that shows how much checkouts Michelle and Barack have throughout the years of 2018-2022 with **michelle_obama_checkout** and **barack_obama_checkout**, from my summary information. I've also been fascinated by the fall of videodiscs and the rise of audiobooks from this dataset. Ive used **videodisc_checkout** and **audiobook_checkout** to find out how audiobooks tookover videodiscs by showing each checkout by the two from 2017-2023. And last but not least **verity_checkouts** and **itendswithus_checkouts** help us see how two of the most popular books from 2022 were performing. These values are all relevant since they relate to my chart! You can find these values on **summary.r**
+The findings and values relate to the charts that I've made. The Obama's has been really fascinating to me, and I've found two values that shows how much checkouts Michelle and Barack have throughout the years of 2018-2022 with ##michelle_obama_checkout and ::barack_obama_checkout::, from my summary information. I've also been fascinated by the fall of videodiscs and the rise of audiobooks from this dataset. Ive used ::videodisc_checkout:: and ::audiobook_checkout:: to find out how audiobooks tookover videodiscs by showing each checkout by the two from 2017-2023. And last but not least ::verity_checkouts:: and **itendswithus_checkouts** help us see how two of the most popular books from 2022 were performing. These values are all relevant since they relate to my chart! You can find these values on ::summary.r::
 
 ### The Dataset
 
 The Seattle Public Library collected this data. This data comes with a lot of parameters. This dataset goes from the year 2017 to 2023. It shows books that were checked out at least 10 times from 2017 to 2023 as well.  This dataset shows all kinds of books from the Seattle Public Library including all genres and all material types like videodiscs and audiobooks as well. This data was probably collected from the Seattle Public Library database since they track all records of books or any type of items checked out, especially from the years of our data collection which is 2017-2023. I believe this data was collected to see how the popularity of different items like books, and items that people don’t think about like videodiscs, audiobooks, and so much more. I also believe this data was collected as an archive so people can see historical references between popular authors, books, or genres. Some ethical questions that I have been, would people be ashamed that their checkout information is used in this data? I know that this data doesn’t show the names of those who checked out each item but some people might not like having their checkout information out there each time they checkout a book. Also, some limitations in this data can include books that are abridged. I sometimes wonder if books that are abridged should count towards books that aren’t abridged in the dataset… It could be a nuisance when it comes to calculating those types of books. 
 
-### Chart 1
+### chart1
 
 
-``````{r, echo = FALSE, warning = FALSE, code = readLines("Chart1.R")}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("Chart1.R")}
 ```
-</br>
 
-### Chart 2
+### chart2
 
 
-``````{r, echo = FALSE, code = readLines("chart2.R")}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("chart2.R")}
 ```
-</br>
 
-### Chart 3
+### chart3
 
 
-``````{r, echo = FALSE, code = readLines("chart3.R")}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, code = readLines("chart3.R")}
 ```
+
