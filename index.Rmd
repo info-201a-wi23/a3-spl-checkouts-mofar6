@@ -1,6 +1,6 @@
 ---
 title: "A3: SPL Library Checkouts"
-output: html_document
+output: index.html
 ---
 
 ### Introduction
